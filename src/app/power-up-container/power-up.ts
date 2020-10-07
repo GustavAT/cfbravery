@@ -13,8 +13,8 @@ export enum PowerUpType {
 }
 
 export const NO_POWER_UP: PowerUp = {
-  name: 'Re-Roll',
-  icon: 'roll',
+  name: 'Bravery',
+  icon: 'cfpro-logo',
   type: PowerUpType.NEUTRAL,
 };
 
