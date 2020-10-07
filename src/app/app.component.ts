@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { getRandomPowerUp, NO_POWER_UP, PowerUp } from "./power-up-container/power-up";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'cfbravery';
+  powerUp1: PowerUp = NO_POWER_UP;
+  powerUp2: PowerUp = NO_POWER_UP;
+
+  reRoll(): void {
+    [this.powerUp1, this.powerUp2] = getRandomPowerUp();
+  }
 }
