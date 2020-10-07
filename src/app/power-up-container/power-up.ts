@@ -44,7 +44,7 @@ const ALL_POWER_UPS: PowerUp[] = [
   {name: 'Steer Less', icon: 'steer-less', type: PowerUpType.TRAP},
   {name: 'Teleport', icon: 'teleport', type: PowerUpType.DEFENSE},
   {name: 'Thick', icon: 'thick', type: PowerUpType.TRAP},
-  {name: 'Thin', icon: 'thin', type: PowerUpType.TRAP},
+  {name: 'Thin', icon: 'thin', type: PowerUpType.DEFENSE},
   {name: 'Time Bomb', icon: 'time-bomb', type: PowerUpType.MINE},
   {name: 'Trigger Bomb', icon: 'trigger-bomb', type: PowerUpType.MINE},
   {name: 'Trippy', icon: 'trippy', type: PowerUpType.TRAP},
