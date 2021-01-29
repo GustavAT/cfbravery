@@ -3,15 +3,19 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { PowerUpContainerComponent } from './power-up-container/power-up-container.component';
+import { UsernameInputComponent } from './username-input/username-input.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PowerUpContainerComponent
+    PowerUpContainerComponent,
+    UsernameInputComponent
   ],
-  imports: [
-    BrowserModule
-  ],
+    imports: [
+        BrowserModule,
+        FormsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
